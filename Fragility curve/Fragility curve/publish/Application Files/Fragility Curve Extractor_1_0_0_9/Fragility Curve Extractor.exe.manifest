@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fragility Curve Extractor.exe" version="1.0.0.9" publicKeyToken="5c52130bc1137497" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Untitled-2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fragility Curve Extractor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fragility Curve Extractor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fragility Curve Extractor.exe" size="128432">
+      <assemblyIdentity name="Fragility Curve Extractor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Lx03v1Bv6Mcwlpuwr2SD20AGf+7eHFKD78SN+iEypd8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MathNet.Numerics.dll" size="1255424">
+      <assemblyIdentity name="MathNet.Numerics" version="3.7.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uS7VSfmnx0t4jKbuMauxlxm+1uqS9kZW62dJ1MlPa20=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fragility Curve Extractor.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Untitled-2.ico" size="37309">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fjfyLCwe6dV+Ox1qTTKHH0ssVNwQ9iYGwBLXazX5UP8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Haseeb\Haseeb" issuerKeyHash="cc316f0ad1f2fa9c3d391a48b1c2c2d7e0617119" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bHL6MgxcPmEu0DI/gmJbmm3FspyIAdxMUCiAESqHEuY=</DigestValue></Reference></SignedInfo><SignatureValue>dj0a1U3iyz9sUH8qwiMomkGTEXhn1vg6rT3uQpcjsX75NT98iyIEyuG+7RHlDXELD2JvSCpUG893VhEDIZXYMa+fLUkVdEyXiKFTKOBc/mb/JJL6OUsjeALSpl4CCjpyoNZchmqmv/Bjo/qT8oeRxoTdP8o3D9P2IT6ZyF0c9fI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rhoFqiVspSK3hq/vy0uvztCXtKCK+z9BdResSKHlkjCKoOrO+VZ1WpM9sqVLUYrSGx/c2Ecwl3FRKQ4gHv0wYMnv/7xubLBTFFfk/QyxFkP9Sr8uAKerfwcL0Hkm66bN5uDJ7jgHZe2ZtOzk0o3L6pAPEMaB73ePvrc2Rfh70uU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e612872a118028504cdc01889cb2c56d9a5b62823f32d02e613e5c0c32fa726c" Description="" Url=""><as:assemblyIdentity name="Fragility Curve Extractor.exe" version="1.0.0.9" publicKeyToken="5c52130bc1137497" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Haseeb\Haseeb</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lxkG2rZpHBElDm0Iik+tnWv0u2q9UUAZVBfz35qomps=</DigestValue></Reference></SignedInfo><SignatureValue>aFpclvv0hGfpI79q44J5hfd2+4oPQ3WxXnOVApgRlgeGi/yjZCqwXDkrlKtyVL0KxEKfgVyopTY+RmW0kUeCK3pCGcUDyWjaQbRZ79oeN2w6/DrEqLRv8yb3Z1vq7teO7SttNvoMOJsPVhz3ptklbSRtGkMT0D/8KoaGWQQwBLA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rhoFqiVspSK3hq/vy0uvztCXtKCK+z9BdResSKHlkjCKoOrO+VZ1WpM9sqVLUYrSGx/c2Ecwl3FRKQ4gHv0wYMnv/7xubLBTFFfk/QyxFkP9Sr8uAKerfwcL0Hkm66bN5uDJ7jgHZe2ZtOzk0o3L6pAPEMaB73ePvrc2Rfh70uU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQQ3La7i18g4RPN2DvhSe7nDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASABhAHMAZQBlAGIAXABIAGEAcwBlAGUAYjAeFw0xNTA3MDQwMDIzMjJaFw0xNjA3MDMwNjIzMjJaMCUxIzAhBgNVBAMeGgBIAGEAcwBlAGUAYgBcAEgAYQBzAGUAZQBiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuGgWqJWylIreGr+/LS6/O0Je0oIr7P0F1F6xIoeWSMIqg6s75VnVakz2ypUtRitIbH9zYRzCXcVEpDiAe/TBgye//vG5ssFMUV+T9DLEWQ/1Kvy4Ap6t/BwvQeSbrps3m4MnuOAdl7Zm07OTSjcvqkA8QxoHvd4++tzZF+HvS5QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIO6o/8Cwg2wAwGSfrVW2BIyJaXW8z7pSXlQMITFnHKvfozPtO03IFE4fSyquPZT+Zn00JiorCyqWIewgANCZTL6QomH26MWH8d5EUT0FnDlxTdmCLqzheM9voKJN7ycN3SR+UyE3pfR0n59BBxivhZdmqyMef0YC0MPkAVEiCpw</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

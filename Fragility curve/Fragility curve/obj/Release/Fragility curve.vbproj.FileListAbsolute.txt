@@ -1,0 +1,13 @@
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\Fragility curve.exe.config
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\Fragility curve.exe
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\Fragility curve.pdb
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\Fragility curve.xml
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\MathNet.Numerics.dll
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\bin\Release\MathNet.Numerics.xml
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility curve.vbprojResolveAssemblyReference.cache
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility_curve.Form1.resources
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility_curve.Resources.resources
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility curve.vbproj.GenerateResource.Cache
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility curve.exe
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility curve.xml
+C:\Users\Haseeb\documents\visual studio 2013\Projects\Fragility curve\Fragility curve\obj\Release\Fragility curve.pdb
